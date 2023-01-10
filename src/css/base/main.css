@@ -19,6 +19,16 @@
     font-weight: 600;
     background-color: #A88400;
     color: white;
+    position: absolute;
+    top: 1717px;
+    left: 150px;
+}
+
+.nom_artiste {
+    font-family: 'inter';
+    background-color: black;
+    color: white;
+    
 }
 
 .hrpage {
@@ -76,5 +86,13 @@
     border-radius: 10px;
     font-weight: 500;
     margin-top: 30px;
+    margin-left: 33px;
+    margin-right: 33px;
 }
 
+.titre_artiste_accueil {
+    font-family: 'inter';
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 30px;
+}
