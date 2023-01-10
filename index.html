@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="Fond" lang="fr" x-data="{articleOpen: false, menuIsOpen: false}">
+<html class="Fond" lang="fr" x-data="{artisteOpen: false, menuIsOpen: false, oeuvreOpen: false}">
     <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,10 +30,10 @@
              
 
                 <dl>
-                    <dt  aria-controls="dd1" @click="articleOpen = ! articleOpen">
+                    <dt  aria-controls="dd1" @click="artisteOpen = ! artisteOpen">
                       <p class="menuarticle">Artistes</p>
                     </dt>
-                    <dd id="dd1" x-show="articleOpen" x-transition.duration.400ms>
+                    <dd id="dd1" x-show="artisteOpen" x-transition.duration.400ms>
                       <li class="liste"><a class="liste" href="pageVasiliy.html">Vasiliy Ryabchenko</a></li>
                       <li class="liste"><a class="liste" href="pageFranco.html">Franco Fontana</a></li>
                       <li class="liste"><a class="liste" href="pageEnzo.html">Enzo Cucchi</a></li>
@@ -41,9 +41,13 @@
                       </dl>
                 <div class="trait__menu"></div>
 
-                      <li class="liste"><a class="liste" href="Crying_Eyes.html">Crying Eyes</a></li>
-                                              
-                                
+                <dl>
+                    <dt  aria-controls="dd1" @click="oeuvreOpen = ! oeuvreOpen">
+                      <p class="menuarticle">Oeuvre</p>
+                    </dt>
+                    <dd id="dd1" x-show="oeuvreOpen" x-transition.duration.400ms>
+
+                      <li class="liste"><a class="liste" href="Crying_Eyes.html">Crying Eyes</a></li>    
                       <li class="liste"><a class="liste" href="Musica_Ebbra.html">Musica Ebbra</a></li>
                       <li class="liste"><a class="liste" href="pageEnzo.html">Enzo Cucchi</a></li>
                       <li class="liste"><a class="liste" href="Skovoroda.html">Skovoroda</a></li>
@@ -52,7 +56,7 @@
                       <li class="liste"><a class="liste" href="Copperas.html">Copperas</a></li>
                       <li class="liste"><a class="liste" href="Asfalto.html">Asfalto, Torino</a></li>
                       <li class="liste"><a class="liste" href="Puglia.html">Puglia</a></li>
-
+                    </dl>   
 
                 <li class="menu__item"><a class="menu__link__titre" href="frise.html">Frise</a></li>
                 <div class="trait__menu"></div>
@@ -70,7 +74,7 @@
 
         <hr class="hrpage">
 
-        <img class="images" src="public/img/Fondation_ZBOK 1.webp" alt="fondation cartier">
+        <img class="images" src="public/img/Fondation_ZBOK.webp" alt="fondation cartier">
 
         <hr class="hrpage">
 
