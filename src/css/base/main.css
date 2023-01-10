@@ -21,6 +21,15 @@
     color: white;
 }
 
+.hrpage {
+    height: 1px;
+    background: black;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 .regroupementimgtext {
     position:relative;
 }
@@ -48,3 +57,24 @@
     font-family: 'inter';
     font-size: 14px;
 }
+
+.titre_2nd {
+    font-family: 'inter';
+    font-weight: 500;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.trans_description {
+    font-family: 'inter';
+    font-size: 13.5px;
+    background-color: #E1BF44;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
