@@ -25,5 +25,41 @@
     width: 43px;
     height: 43px;
     margin-top: 10px;
+    margin-bottom: 15px;
   }
 
+  .arobase_twitter {
+    position: absolute;
+    top: 3085px;
+    left: 74px;
+  }
+
+  .hrfooter {
+    height: 1px;
+    background: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .footer_form {
+    font-size: 14px;
+  }
+
+  .newsletter {
+    font-size: 12px;
+    background-color: var(--jaune-secondaire);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 23px;
+    padding-right: 134px;
+    border-radius: 25px;
+    color: black;
+    margin-top: 15px;
+  }
+
+.footer_mention {
+    font-size: 10px;
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 25px;
+}
