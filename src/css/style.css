@@ -2,3 +2,5 @@
 @import url(./vendors/normalize.css);
 @import url(./layouts/footer.css);
 @import url(./layouts/carrousel.css);
+@import url(./base/main.css);
+@import url(./base/media.css);
