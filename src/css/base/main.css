@@ -20,15 +20,27 @@
     background-color: #A88400;
     color: white;
     position: absolute;
-    top: 1717px;
+    top: 1768px;
     left: 150px;
 }
 
 .nom_artiste {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 16px ;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
     font-family: 'inter';
+    font-weight: 600;
     background-color: black;
     color: white;
-    
+    position: absolute;
+    top: 1535px;
+    left: 150px;
+
 }
 
 .hrpage {
