@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fff;
+  }
+  
+  header a {
+    text-decoration: none;
+  }
+
+  .header_logo {
+    margin-left: 9px;
+    margin-top: 46px;
+    z-index: 24;
+    position: relative;
+  }
+  
+  .header {
+    padding: 0 20px;
+    height: 243px;
+    display: flex;
+    background: url(/public/img/header.png) no-repeat;
+    justify-content: space-between;
+    
+  }
+
+
+ 

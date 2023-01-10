@@ -25,7 +25,7 @@
   }
   
   .menuarticle {
-    color: white;
+    color: black    ;
     font-family: 'Inter';
     font-weight: bold;
     text-decoration: underline;
@@ -38,7 +38,7 @@
   }
   
   .menu__link {
-    color: white;
+    color: black;
     margin: 30px;
     font-family: 'Inter';
     font-weight: lighter;
@@ -46,7 +46,7 @@
   
   .menu__link__titre {
     color: black;
-    font-family: 'Inter';
+    font-family: 'Itim';
     font-weight: bolder;
     text-decoration: none;
   }
@@ -55,6 +55,7 @@
         text-decoration: none;
         font-family: 'itim';
         color: black;
+        font-size: 22px;
     }
   
   .liste {
@@ -62,6 +63,7 @@
     font-family: 'itim';
     font-weight: 500;
     margin-left: 10px;
+    font-size: 18px;
   }
   .menu__link__titre__langue, .langue {
     color: white;
@@ -74,10 +76,17 @@
   }
   
   .trait__menu{
-      border-top: 2px solid white;
-      margin: 20px
+      border-top: 2px solid black;
+      margin: 20px;
+      width: 150px;
       } 
   
+      .header__menu-btn {
+        background: none;
+        height: 300px;
+        padding-top: 50px;
+        
+      }
   
   
   .menu-btn {
@@ -86,14 +95,14 @@
     width: 30px;
     margin-top: -120px;
     margin-right: -10px;
-    
+    border: none;
   }
   
   .menu-btn__bar,
   .menu-btn__bar::before,
   .menu-btn__bar::after {
     content: '';
-    background:white;
+    background:black;
     height: 3px;
     width: 100%;
     position: absolute;
