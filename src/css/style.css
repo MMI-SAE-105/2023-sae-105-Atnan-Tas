@@ -4,6 +4,7 @@
 @import url(./layouts/carrousel.css);
 @import url(./base/main.css);
 @import url(./base/media.css);
+@import url(./components/menu.css);
 
 /* font-family: 'Itim', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
