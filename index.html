@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="Fond" lang="fr" x-data="{menuIsOpen: false}">
+<html class="Fond" lang="fr" x-data="{articleOpen: false, menuIsOpen: false}">
     <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,10 +15,47 @@
     <img class="headersite" src="public/img/header.png" alt="header du site">
     <div class="header__start">
         <a href="index.html">
-          <img class="header_logo" src="public/img/logo_site.svg" alt="logo TEX">   
+          <img class="header_logo" src="public/img/logo_site.svg" alt="logo TEX">           
         </a>
       </div>
-      
+
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+                    @pointerdown="menuIsOpen = !menuIsOpen" 
+                    :class="menuIsOpen && 'menu-btn--open'">
+            <span class="menu-btn__bar"></span>
+            </button>
+
+            <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+            <ul class="menu__list list-unstyled">
+                <ul class="langue">
+                    <li class="menu__item"><a class="menu__link__titre__langue" href="index.html">
+                        <img class="drapeau" src="icone/drapeau_FR.svg" alt="drapeau français">
+                    </a></li>
+                    <li class="menu__item"><a class="menu__link__titre__langue" href="index_english.html">
+                        <img class="drapeau" src="icone/drapeau_UK.svg" alt="drapeau Anglais">
+                    </a></li>
+                </ul>
+
+                <dl>
+                    <dt  aria-controls="dd1" @click="articleOpen = ! articleOpen">
+                      <p class="menuarticle">A nmrtistes</p>
+                    </dt>
+                    <dd id="dd1" x-show="articleOpen" x-transition.duration.400ms>
+                      <li class="liste"><a class="liste" href="pageVasiliy.html">Vasiliy Ryabchenko</a></li>
+                      <li class="liste"><a class="liste" href="pageFranco.html">Franco Fontana</a></li>
+                      <li class="liste"><a class="liste" href="pageEnzo.html">Enzo Cucchi</a></li>
+                      <li class="liste"><a class="liste" href="pageAlexander.html">Alexander Roitburd</a></li>
+                      </dl>
+                <div class="trait__menu"></div>
+
+
+                <li class="menu__item"><a class="menu__link__titre" href="AutreProjet.html">D'autres projets</a></li>
+                <div class="trait__menu"></div>
+                <li class="menu__item"><a class="menu__link__titre" href="Apropos.html">En savoir +</a></li>
+                <div class="trait__menu"></div>
+                <li class="menu__item"><a class="menu__link__titre" href="Contact.html">Contact</a></li>
+            </ul>
+
     </header>
     <main>
 
