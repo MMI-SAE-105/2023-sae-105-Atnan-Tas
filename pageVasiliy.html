@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="Fond" lang="fr" x-data="{artisteOpen: false, menuIsOpen: false, oeuvreOpen: false}">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trans 'EXpo</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+
+</head>
+<body>
+  <header class="header" x-data="{ menuIsOpen : false }">
+    <img class="headersite" src="public/img/header.png" alt="header du site">
+    <div class="header__start">
+        <a href="index.html">
+          <img class="header_logo" src="public/img/logo_site.svg" alt="logo TEX">           
+        </a>
+      </div>
+
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+                    @pointerdown="menuIsOpen = !menuIsOpen" 
+                    :class="menuIsOpen && 'menu-btn--open'">
+            <span class="menu-btn__bar"></span>
+            </button>
+
+            <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+            <ul class="menu__list list-unstyled">
+             
+
+                <dl>
+                    <dt  aria-controls="dd1" @click="artisteOpen = ! artisteOpen">
+                      <p class="menuarticle">Artistes</p>
+                    </dt>
+                    <dd id="dd1" x-show="artisteOpen" x-transition.duration.400ms>
+                      <li class="liste"><a class="liste" href="pageVasiliy.html">Vasiliy Ryabchenko</a></li>
+                      <li class="liste"><a class="liste" href="pageFranco.html">Franco Fontana</a></li>
+                      <li class="liste"><a class="liste" href="pageEnzo.html">Enzo Cucchi</a></li>
+                      <li class="liste"><a class="liste" href="pageAlexander.html">Alexander Roitburd</a></li>
+                      </dl>
+                <div class="trait__menu"></div>
+
+                <dl>
+                    <dt  aria-controls="dd1" @click="oeuvreOpen = ! oeuvreOpen">
+                      <p class="menuarticle">Oeuvre</p>
+                    </dt>
+                    <dd id="dd1" x-show="oeuvreOpen" x-transition.duration.400ms>
+
+                      <li class="liste"><a class="liste" href="Crying_Eyes.html">Crying Eyes</a></li>    
+                      <li class="liste"><a class="liste" href="Musica_Ebbra.html">Musica Ebbra</a></li>
+                      <li class="liste"><a class="liste" href="pageEnzo.html">Enzo Cucchi</a></li>
+                      <li class="liste"><a class="liste" href="Skovoroda.html">Skovoroda</a></li>
+                      <li class="liste"><a class="liste" href="Tzadik.html">The Dormant Tzadik</a></li>
+                      <li class="liste"><a class="liste" href="Morning.html">Morning</a></li>
+                      <li class="liste"><a class="liste" href="Copperas.html">Copperas</a></li>
+                      <li class="liste"><a class="liste" href="Asfalto.html">Asfalto, Torino</a></li>
+                      <li class="liste"><a class="liste" href="Puglia.html">Puglia</a></li>
+                    </dl>   
+
+                <li class="menu__item"><a class="menu__link__titre" href="frise.html">Frise</a></li>
+                <div class="trait__menu"></div>
+                <li class="menu__item"><a class="menu__link__titre" href="info.html">+ d'information</a></li>
+                <div class="trait__menu"></div>
+                <li class="menu__item"><a class="menu__link__titre" href="contact.html">Contact</a></li>
+            </ul>
+
+    </header>
+
+    <h1 class="titre_page">Vasili Ryabchenko</h1>
+
+    <img class="images" src="./public/img/Vasiliy_Ryabchenko.webp" alt="vasiliy Ryabchenko">
+
+    <p class="description_artiste">Vasiliy Ryabchenko est originaire d'Odessa et est né le 23 juillet 1954 dans une famille de graphistes soviétiques, son père étant Sergey Ryabchenko. 
+        Il a commencé son parcours artistique en 1966 en intégrant l'école d'art située sur le territoire de celle-ci. 
+        En 1969, Il a poursuivi ses études en intégrant le département de peinture de l'Odessa Art College nommé d'après MB Grekov.</p> 
+        
+     
+        <hr class="hrpage">
+
+        <p class="titre_2nd">Découvrez quelques oeuvres de cet artistes</p>
+
+        <img class="imgoeuvre" src="./public/img/Morning.webp" alt="oeuvre Morning">
+        <p class="nom_oeuvre">Morning</p>
+
+        <hr class="hrpage">
+
+        <img class="imgoeuvre" src="./public/img/Copperas.webp" alt="oeuvre Copperas">
+        <p class="nom_oeuvre">Copperas</p>
+
+        <hr class="hrpage">
+
+        <footer class="footer">
+
+
+            <section class="footer__fond">
+
+              <h3 class="footer__title">Rejoignez nous !</h3>
+
+                <img class="logo_insta" src="./public/img/logo_insta.svg"   alt="logo instagram">
+                
+              
+                <hr class="hrfooter">
+            
+                    <p class=footer_form>Inscriviez vous à notre Newsletter<br>
+                    </p>
+                    <p class="newsletter">Tapez votre adress e-mail...</p>
+                    
+                    <p class="footer_mention">politique de confidentialité • Mentions légales • Billeterie</p>
+            </section>
+        </footer> 
+
+
+    </body>
+</html>
