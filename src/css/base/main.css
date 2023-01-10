@@ -24,6 +24,60 @@
     left: 150px;
 }
 
+.artiste_btn1 {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 16px ;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    font-family: 'inter';
+    font-weight: 600;
+    background-color: #A88400;
+    color: white;
+    position: absolute;
+    top: 2140px;
+    left: 150px;
+}
+
+.artiste_btn2 {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 16px ;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    font-family: 'inter';
+    font-weight: 600;
+    background-color: #A88400;
+    color: white;
+    position: absolute;
+    top: 2510px;
+    left: 150px;
+}
+
+.artiste_btn3 {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 16px ;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    font-family: 'inter';
+    font-weight: 600;
+    background-color: #A88400;
+    color: white;
+    position: absolute;
+    top: 2810px;
+    left: 190px;
+}
+
 .nom_artiste {
     border-color: black;
     border-width: 2px;
@@ -40,7 +94,60 @@
     position: absolute;
     top: 1535px;
     left: 150px;
+}
 
+.nom_artiste1 {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 16px ;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    font-family: 'inter';
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 1900px;
+    left: 150px;
+}
+
+.nom_artiste2 {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 16px ;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    font-family: 'inter';
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2265px;
+    left: 150px;
+}
+
+.nom_artiste3 {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 16px ;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    font-family: 'inter';
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2625px;
+    left: 15px;
 }
 
 .hrpage {
