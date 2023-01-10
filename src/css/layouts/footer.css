@@ -1,0 +1,29 @@
+.footer {
+    background: var(--brun-principal);
+    color: white;
+    padding: 0px var(--space3x);
+    font-family: 'inter';
+  }
+
+  .logo_insta {
+    width: 34px;
+    height: 34px;
+    margin-top: 45px;
+    margin-left: 6px;
+  }
+
+  .footer_title {
+    padding-top: 37px;
+  }
+
+  .arobase_insta {
+    position: absolute;
+    top: 3035px;
+    left: 74px;
+  }
+  .logo_twitter {
+    width: 43px;
+    height: 43px;
+    margin-top: 10px;
+  }
+
