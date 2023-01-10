@@ -63,3 +63,8 @@
     text-align: center;
     padding-bottom: 25px;
 }
+
+.lien_footer {
+    text-decoration: none;
+    color: white;
+}
