@@ -299,3 +299,38 @@
     line-height: 1.3;
 }
 
+
+.nom_oeuvreCrying {
+    font-weight: 500;
+    font-family: 'inter';
+    font-size: 13px;
+    border-color: black;
+    border: none;
+    background: var(--jaune-secondaire);
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 10px;
+    position: absolute;
+    top: 1090px;
+    left: 128px;
+}
+
+
+.nom_oeuvreMusica {
+    font-weight: 500;
+    font-family: 'inter';
+    font-size: 13px;
+    border-color: black;
+    border: none;
+    background: var(--jaune-secondaire);
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 10px;
+    position: absolute;
+    top: 890px;
+    left: 128px;
+}
