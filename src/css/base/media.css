@@ -48,5 +48,11 @@
 }
 
 .imageEnzo {
-    
+    width: 331px;
+    background-color: var(--brun-cafe);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 70px;
 }
