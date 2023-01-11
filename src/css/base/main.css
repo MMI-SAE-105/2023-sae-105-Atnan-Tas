@@ -276,7 +276,7 @@
     font-weight: 600;
     font-size: 20px;
     margin-left: 18px;
-    margin-bottom: 43px;
+    margin-bottom: 25px;
     margin-top: 25px;
 }
 
@@ -514,4 +514,38 @@
 }
 
 
+.texte_loc {
+    position: absolute;
+    font-size: 13px;
+    font-family: 'inter';
+    left: 50px;
+    top: 690px;
+}
 
+.sous_texte {
+    margin-left: 22px;
+    font-family: 'inter';
+    font-size: 13px;
+}
+
+.billeterie-btn {
+border: none;
+background-color: black;
+width: 158px;
+border-radius: 25px;
+height: 44px;
+}
+
+.cart {
+width: 17px;
+height: 17px;
+}
+
+.lien_billeterie {
+    font-family: 'inter';
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    
+    
+}
