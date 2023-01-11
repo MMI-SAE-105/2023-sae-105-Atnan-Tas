@@ -270,3 +270,12 @@
     top: 1255px;
     left: 128px;
 }
+
+.titre_page {
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 18px;
+    margin-bottom: 43px;
+}
+
