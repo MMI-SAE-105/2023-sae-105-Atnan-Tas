@@ -47,7 +47,7 @@
   
   .menu__link__titre {
     color: black;
-    font-family: 'Itim';
+    font-family: 'Inter   ';
     font-weight: bolder;
     text-decoration: none;
     font-size: 22px;
@@ -55,7 +55,7 @@
 
     .menuarticle {
         text-decoration: none;
-        font-family: 'itim';
+        font-family: 'inter';
         color: black;
         font-size: 22px;
     }

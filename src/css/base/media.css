@@ -91,16 +91,3 @@ width: 291px;
 margin-left: 30px;
 }
 
-.description_oeuvreCrying {
-    background-color: var(--jaune-secondaire);
-    font-family: 'inter';
-    font-size: 13px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 10px;
-    margin-top: 21px;
-    width: 340px;
-    margin-left: 24px;
-}
