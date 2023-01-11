@@ -526,19 +526,25 @@
     margin-left: 22px;
     font-family: 'inter';
     font-size: 13px;
+    margin-bottom: 100px;
 }
 
 .billeterie-btn {
-border: none;
-background-color: black;
-width: 158px;
-border-radius: 25px;
-height: 44px;
+    border: none;
+    background-color: black;
+    width: 158px;
+    border-radius: 25px;
+    height: 44px;
+    position: absolute;
+    top: 826px;
+    left: 100px;
 }
 
 .cart {
-width: 17px;
-height: 17px;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 25px;
 }
 
 .lien_billeterie {
@@ -546,6 +552,6 @@ height: 17px;
     text-decoration: none;
     color: white;
     font-size: 14px;
-    
+    margin-left: 15px;
     
 }
