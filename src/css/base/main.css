@@ -277,6 +277,7 @@
     font-size: 20px;
     margin-left: 18px;
     margin-bottom: 43px;
+    margin-top: 25px;
 }
 
 .description_artisteE {
@@ -443,3 +444,74 @@
     top: 1215px;
     left: 160px;
 }
+
+.tarifs1 {
+    background-color: var(--jaune-secondaire);
+    border-radius: 10px;
+    width: 135px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 13px;
+    font-family: 'inter';
+    margin-top: 10px;
+}
+
+.tarifs2 {
+    background-color: var(--jaune-secondaire);
+    border-radius: 10px;
+    width: 157px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 13px;
+    font-family: 'inter';
+    margin-top: 10px;
+}
+
+
+.tarifs3 {
+    background-color: var(--jaune-secondaire);
+    border-radius: 10px;
+    width: 207px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 13px;
+    font-family: 'inter';
+    margin-top: 10px;
+}
+
+
+.tarifs4 {
+    background-color: var(--jaune-secondaire);
+    border-radius: 10px;
+    width: 257px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 13px;
+    font-family: 'inter';
+    margin-top: 10px;
+}
+
+
+.tarifs5 {
+    background-color: var(--jaune-secondaire);
+    border-radius: 10px;
+    width: 328px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 13px;
+    font-family: 'inter';
+    margin-top: 10px;
+}
+
+
+

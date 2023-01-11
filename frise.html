@@ -12,7 +12,6 @@
 </head>
 <body>
   <header class="header" x-data="{ menuIsOpen : false }">
-    <img class="headersite" src="public/img/header.png" alt="header du site">
     <div class="header__start">
         <a href="index.html">
           <img class="header_logo" src="public/img/logo_site.svg" alt="logo TEX">           
@@ -60,14 +59,16 @@
                 <li class="menu__item"><a class="menu__link__titre" href="frise.html">Frise</a></li>
                 <div class="trait__menu"></div>
                 <li class="menu__item"><a class="menu__link__titre" href="info.html">+ d'information</a></li>
-                <div class="trait__menu"></div>
+                  <div class="trait__menu"></div>
                 <li class="menu__item"><a class="menu__link__titre" href="contact.html">Contact</a></li>
             </ul>
 
     </header>
 
+    <p class="titre_page">Frise chronologique des 
+        artistes</p>
+
     <div class="carrousel" x-data="{}">
-        <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"></button><button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
         <div class="carrousel_parent-ecrans">
             <div id="ecran-1" class="carrousel_ecran">
                 <figure>
@@ -101,17 +102,21 @@
 
           <h3 class="footer_title">Rejoignez nous !</h3>
 
+          <li class=reseaux__sociaux>
+
             <img class="logo_insta" src="./public/img/logo_insta.svg"   alt="logo instagram"> <p class="arobase_insta">@tex_expo</p>
             <img class="logo_twitter" src="./public/img/logo_twitter.svg"   alt="logo twitter"> <p class="arobase_twitter">@trans_expo</p>
 
-          
+          </li>
             <hr class="hrfooter">
         
                 <p class=footer_form>Inscriviez vous à notre Newsletter<br>
                 </p>
                 <p class="newsletter">Tapez votre adress e-mail...</p>
                 
-                <p class="footer_mention">politique de confidentialité • Mentions légales • Billeterie</p>
+                <p class="footer_mention">politique de confidentialité • Mentions légales • 
+                  <a class="lien_footer" href="info.html">
+                  Billeterie</p></a>
         </section>
     </footer> 
 

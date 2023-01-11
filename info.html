@@ -12,7 +12,6 @@
 </head>
 <body>
   <header class="header" x-data="{ menuIsOpen : false }">
-    <img class="headersite" src="public/img/header.png" alt="header du site">
     <div class="header__start">
         <a href="index.html">
           <img class="header_logo" src="public/img/logo_site.svg" alt="logo TEX">           
@@ -60,33 +59,33 @@
                 <li class="menu__item"><a class="menu__link__titre" href="frise.html">Frise</a></li>
                 <div class="trait__menu"></div>
                 <li class="menu__item"><a class="menu__link__titre" href="info.html">+ d'information</a></li>
-                <div class="trait__menu"></div>
+                  <div class="trait__menu"></div>
                 <li class="menu__item"><a class="menu__link__titre" href="contact.html">Contact</a></li>
             </ul>
 
     </header>
 
-    <h3>Tarifs :</h3>
+    <p class="titre_page">Tarifs :</p>
 
-    <p class="tarifs">Plein tarif ⇒ 11€</p>
-    <p class="tarifs">Tarif réduit ⇒ 7,50€</p>
-    <p class="tarifs">Réduction 13 - 25 ans ⇒ 5€</p>
-    <p class="tarifs">Fondation Cartier Pass ⇒ 18€ - 50€</p>
-    <p class="tarifs">Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Etudiants ⇒ Gratuit</p>
+    <p class="tarifs1">Plein tarif ⇒ 11€</p>
+    <p class="tarifs2">Tarif réduit ⇒ 7,50€</p>
+    <p class="tarifs3">Réduction 13 - 25 ans ⇒ 5€</p>
+    <p class="tarifs4">Fondation Cartier Pass ⇒ 18€ - 50€</p>
+    <p class="tarifs5">Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Etudiants ⇒ Gratuit</p>
 
-    <h3>Lieu de l’exposition :</h3>
-
+      <p class="titre_page">Lieu de l’exposition :</p>
     <p class="sous_texte">Fondation Cartier, 261 Bd Raspail, 75014 Paris
     </p>
 
-    <h3>Billeterie :</h3>
-    <p class="sous_texte">Cette exposition vous intéresse ? Achetez votre place maintenant !
+<p class="titre_page"> Billeterie :</p>    
+<p class="sous_texte">Cette exposition vous intéresse ? Achetez votre place maintenant !
     </p>
 
+   
     <button>
-        <img class="cart" src="./public/img/caddie.svg" alt="caddie billeterie">
+      <a href="billeterie.html"><img class="cart" src="./public/img/caddie.svg" alt="caddie billeterie">
         Billeterie</button>
-
+</a>
         
         <footer class="footer">
 
@@ -95,17 +94,21 @@
 
             <h3 class="footer_title">Rejoignez nous !</h3>
 
+            <li class=reseaux__sociaux>
+
               <img class="logo_insta" src="./public/img/logo_insta.svg"   alt="logo instagram"> <p class="arobase_insta">@tex_expo</p>
               <img class="logo_twitter" src="./public/img/logo_twitter.svg"   alt="logo twitter"> <p class="arobase_twitter">@trans_expo</p>
 
-            
+            </li>
               <hr class="hrfooter">
           
                   <p class=footer_form>Inscriviez vous à notre Newsletter<br>
                   </p>
                   <p class="newsletter">Tapez votre adress e-mail...</p>
                   
-                  <p class="footer_mention">politique de confidentialité • Mentions légales • Billeterie</p>
+                  <p class="footer_mention">politique de confidentialité • Mentions légales • 
+                    <a class="lien_footer" href="info.html">
+                    Billeterie</p></a>
           </section>
       </footer> 
 
