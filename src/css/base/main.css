@@ -601,38 +601,8 @@
     font-weight: 500;
 }
 
-.description_oeuvreTzadik {
-    background-color: var(--jaune-secondaire);
-    font-family: 'inter';
-    font-size: 12px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 10px;
-    margin-top: 15px;
-    width: 340px;
-    margin-left: 14px;
-    font-weight: 500;
-}
 
-.description_oeuvreMorning {
-    background-color: var(--jaune-secondaire);
-    font-family: 'inter';
-    font-size: 12px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 10px;
-    margin-top: 15px;
-    width: 340px;
-    margin-left: 14px;
-    font-weight: 500;
-}
-
-
-.description_oeuvreCopperas {
+.description_oeuvre {
     background-color: var(--jaune-secondaire);
     font-family: 'inter';
     font-size: 12px;
