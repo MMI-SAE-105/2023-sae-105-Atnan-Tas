@@ -6,6 +6,7 @@
 @import url(./base/media.css);
 @import url(./components/menu.css);
 @import url(./utils/variables.css);
+@import url(./layouts/form.css);
 
 /* font-family: 'Itim', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
