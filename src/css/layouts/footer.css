@@ -8,8 +8,8 @@
   .logo_insta {
     width: 34px;
     height: 34px;
-    margin-top: 45px;
-    margin-left: 6px;
+    margin-top: -10px;
+    margin-left: auto;
   }
 
   .footer_title {
@@ -17,21 +17,18 @@
   }
 
   .arobase_insta {
-    position: absolute;
-    top: 3035px;
-    left: 74px;
+    margin-top: 35px;
+
   }
   .logo_twitter {
     width: 43px;
     height: 43px;
-    margin-top: 10px;
+    margin-top: -16px;
     margin-bottom: 15px;
   }
 
   .arobase_twitter {
-    position: absolute;
-    top: 3085px;
-    left: 74px;
+    margin-top: 35px;
   }
 
   .hrfooter {
@@ -67,4 +64,9 @@
 .lien_footer {
     text-decoration: none;
     color: white;
+}
+
+.reseaux__sociaux{
+  display: flex;
+  margin-top: 50px;
 }
