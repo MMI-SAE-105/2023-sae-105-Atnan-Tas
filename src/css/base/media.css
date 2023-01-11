@@ -57,3 +57,14 @@
     padding-bottom: 70px;
     margin-left: 22px;
 }
+
+.imageFranco {
+    width: 190px;
+    background-color: var(--brun-cafe);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 70px;
+    margin-left: 60px;
+}
