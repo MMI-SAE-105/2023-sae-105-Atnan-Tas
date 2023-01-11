@@ -28,3 +28,21 @@
     margin-left: 32px;
     margin-top: 60px;
 }
+
+.imageVasiliy { 
+        width: 300px;
+        margin: 0 auto;
+        background-color: var(--brun-cafe);
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 70px;
+        margin-bottom: 145px;
+}
+
+.imgoeuvre {
+    width: 150px;
+    margin-left: 36px;
+    margin-top: 20px;
+}

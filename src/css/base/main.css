@@ -192,6 +192,7 @@
     font-weight: 500;
     padding-top: 30px;
     text-align: center;
+    margin-left: 18px;
 }
 
 .trans_description {
@@ -214,4 +215,24 @@
     font-size: 17px;
     font-weight: 500;
     padding-top: 30px;
+}
+
+.description_artisteV {
+    box-sizing: border-box;
+    background: #5C4E1C;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    left: 60px;
+    top: 545px;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'inter';
+    font-size: 11px;
+    line-height: 1.3;
 }
